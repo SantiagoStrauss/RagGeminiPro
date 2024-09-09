@@ -19,11 +19,10 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from collections import defaultdict
 import heapq
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
 import voyageai
 from langchain.embeddings.base import Embeddings
 
-#ESTA VERSIÓN USA EL MODELO DE LENGUAJE "es_core_news_sm" DE SPACY, EL MODELO DE EMBEDDINGS "voyage-multilingual-2" DE VOYAGE AI Y EL MODELO DE CHAT "gemini-1.5-flash" DE GOOGLE GENAI 
+#ESTA VERSIÓN USA EL MODELO DE EMBEDDINGS "voyage-multilingual-2" DE VOYAGE AI Y EL MODELO DE CHAT "gemini-1.5-flash" DE GOOGLE GENAI 
 #además usa el modelo de cross-encoder "cross-encoder/ms-marco-MiniLM-L-6 y - NO TIENE - iterative_retrieval para obtener más información relevante
 
 
