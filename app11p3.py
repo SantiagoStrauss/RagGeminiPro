@@ -24,7 +24,7 @@ from langchain.embeddings.base import Embeddings
 
 #ESTA VERSIÓN USA EL MODELO DE EMBEDDINGS "voyage-multilingual-2" DE VOYAGE AI Y EL MODELO DE CHAT "gemini-1.5-flash" DE GOOGLE GENAI 
 #además usa el modelo de cross-encoder "cross-encoder/ms-marco-MiniLM-L-6 y - NO TIENE - iterative_retrieval para obtener más información relevante
-#Esta versión usa un mecanismo de similitud de query actual contra el historial de chat para ponderar el historial de chat y mejorar la respuesta
+#Esta versión usa un mecanismo de similitud de query actual contra el historial de chat para ponderar el historial de chat y mejorar la respuesta.
 
 
 # Cargar variables de entorno y configurar el registro
